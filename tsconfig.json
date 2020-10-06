@@ -11,9 +11,6 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "baseUrl": "./",
-    "paths": {
-      "@": ["./"]
-    },
     "lib": ["esnext", "dom"]
   },
   "include": [
