@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "ts-node snippets/SayHello.ts",
-    "lint": "eslint snippets --fix"
+    "lint": "eslint mocks --fix && eslint snippets --fix && eslint types --fix"
   },
   "husky": {
     "hooks": {

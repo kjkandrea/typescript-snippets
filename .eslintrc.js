@@ -19,6 +19,7 @@ module.exports = {
     "prettier"
   ],
   "rules": {
+    quotes: ['error', 'double'],
     "prettier/prettier": "error"
   }
 };

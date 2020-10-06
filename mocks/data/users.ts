@@ -2,15 +2,15 @@ export default {
   contents: [
     {
       id: 1,
-      name: 'andrea'
+      name: "andrea",
     },
     {
       id: 2,
-      name: 'haebogoyang'
+      name: "haebogoyang",
     },
     {
       id: 3,
-      name: 'mummu'
-    }
-  ]
-}
+      name: "mummu",
+    },
+  ],
+};
