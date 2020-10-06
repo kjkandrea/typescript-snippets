@@ -1,0 +1,27 @@
+{
+  "name": "typescript-snippets",
+  "version": "1.0.0",
+  "description": "useful typescript snippets",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node snippets/SayHello.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjkandrea/typescript-snippets.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "andrea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjkandrea/typescript-snippets/issues"
+  },
+  "homepage": "https://github.com/kjkandrea/typescript-snippets#readme",
+  "devDependencies": {
+    "ts-node": "^9.0.0",
+    "tsc-node": "0.0.3"
+  },
+  "dependencies": {}
+}
