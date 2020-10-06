@@ -8,7 +8,7 @@ const user = replaceKeyName(data, newKeys);
 function replaceKeyName(
   obj: { [key: string]: any },
   newKeys: { [key: string]: any }
-) {
+): { [key: string]: any } {
   const keyValues = Object.keys(obj).map((key) => {
     const newKey = newKeys[key] || key;
     return {
