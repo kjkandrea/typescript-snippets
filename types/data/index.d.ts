@@ -11,3 +11,14 @@ export interface User {
 export interface Users {
   contents: User[];
 }
+
+export interface Product {
+  id: number;
+  title: string;
+  price: number;
+  subProducts?: Product[];
+}
+
+export interface Products {
+  contents: Product[];
+}
