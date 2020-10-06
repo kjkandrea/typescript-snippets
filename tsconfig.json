@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "paths": {
+      "@": ["./"]
+    },
+    "lib": ["esnext", "dom"]
+  },
+  "include": [
+    "mocks/**/*.ts",
+    "snippets/**/*.ts",
+    "types/**/*.d.ts",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
