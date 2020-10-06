@@ -5,12 +5,6 @@ const data: Users = UserData;
 const newKeys = { id: "index", name: "nickname" };
 const users = replaceObjectKeyName<User>(data.contents, newKeys);
 
-/**
- * @replaceObjectKeyName
- *
- * @param arr
- * @param newKeys
- */
 function replaceObjectKeyName<T>(
   arr: T[],
   newKeys: { [key: string]: any }
