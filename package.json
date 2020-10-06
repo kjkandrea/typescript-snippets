@@ -4,7 +4,16 @@
   "description": "useful typescript snippets",
   "main": "index.js",
   "scripts": {
-    "test": "ts-node snippets/SayHello.ts"
+    "test": "ts-node snippets/SayHello.ts",
+    "lint": "eslint snippets --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.ts": "eslint --fix"
   },
   "repository": {
     "type": "git",
@@ -20,6 +29,14 @@
   },
   "homepage": "https://github.com/kjkandrea/typescript-snippets#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "@typescript-eslint/parser": "^4.4.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.1.2",
     "ts-node": "^9.0.0",
     "tsc-node": "0.0.3"
   },
